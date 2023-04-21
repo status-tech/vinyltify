@@ -1,0 +1,48 @@
+<div class="centrado" style="margin-left: 70px;">
+    <img src="assets/nombre_transparente.png" width="500px">
+</div>
+
+
+<div class="centrado" style="margin-top: 10px;">
+    <button id="b1" type="button" class="btn btn-secondary btn-lg btn-block rounded" style="margin-left: 5px;" (click)="getMyTracks('short_term')">Last Month</button>
+    <button id="b2" type="button" class="btn btn-outline-secondary btn-lg btn-block rounded" style="margin-left: 5px;"(click)="getMyTracks('medium_term')">Last 6 Months</button>
+    <button id="b3" type="button" class="btn btn-outline-secondary btn-lg btn-block rounded" style="margin-left: 5px;"(click)="getMyTracks('long_term')">All Time</button>
+</div>
+
+<div class="centrado" style="margin-top: 10px; margin-left: 30px;">
+    <button type="button" class="btn btn-danger btn-lg btn-block rounded" style="margin-left: 5px;" (click)="logout()">Logout</button>
+</div>
+
+
+
+<div style="position: relative; left: 0px; bottom: 0px;" id="img">
+    <div id="fotoAlbum" class="album-cover eye">
+        <div class="vinyl-cover"></div>
+        <div class="album-info texto">
+            <h1 id="albumName">VINYLTIFY</h1>
+            <h2 id="nombreCliente">Artista</h2>
+            <div class="song-list">
+                <div class="column">
+                    <ul class="texto">
+                        <li id="cancion1"></li>
+                        <li id="cancion2" class="back"></li>
+                        <li id="cancion3" class="back"></li>
+                        <li id="cancion4" class="back"></li>
+                        <li id="cancion5" class="back"></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul class="texto">
+                        <li id="cancion6" class="back"></li>
+                        <li id="cancion7" class="back"></li>
+                        <li id="cancion8" class="back"></li>
+                        <li id="cancion9" class="back"></li>
+                        <li id="cancion10" class="back"></li>
+                    </ul>
+                </div>
+            </div>
+            <h3 id="tipo">Artista</h3>
+        </div>
+    </div>
+    <img src="assets/vinyl2.png" class="heaven"/>
+</div>
